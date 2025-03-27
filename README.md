@@ -28,5 +28,13 @@ git remote add origin https://github.com/parthabose/ostad-com.git
 git branch -M main
 git push -u origin main
 
+# Creating new branch and switching to it
+git switch -c dev
+git commit -m "Created hello.txt in dev branch"
+git push origin dev
 
+git checkout main
+git pull origin main
+
+# Assignment finished.
 
